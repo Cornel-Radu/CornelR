@@ -1,0 +1,24 @@
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    color: black;
+    filter: alpha(opacity=0);
+    opacity: .4;
+    outline: none;
+    background: #E8E8E8;
+    cursor: inherit;
+    display: block;
+}
+
+#img-upload{
+    width: 25%;
+}
